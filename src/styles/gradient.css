@@ -1,0 +1,14 @@
+
+/* gradient-bg ---------------------------------*/
+.isGradBg.is-color-blue {
+  color: white;
+  background: linear-gradient(to right, #60a1eb 0%, #5ca9fb 100%);
+}
+.isGradBg a{
+  color: white;
+}
+
+.isGradBg hr{
+  color: white;
+  opacity: 0.4;
+}

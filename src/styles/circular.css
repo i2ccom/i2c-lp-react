@@ -1,0 +1,76 @@
+
+/* circular ---------------------------------*/
+.circular {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.circular>div {
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap
+}
+
+.circular>div>div {
+  background: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 22px 0px #1b1b1b77;
+  margin-bottom: 40px
+}
+
+.circular>div>div img {
+  max-width: 80px;
+  margin-bottom: 30px
+}
+
+.circular>div>div>div {
+  padding: 0px 54px;
+  text-align: center
+}
+
+.circular>div>div {
+  width: 336px;
+  height: 336px
+}
+
+.circular-container {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 1088px) {
+  .circular-container {
+      transform:rotate(-45deg)
+  }
+
+  .circular>div>div {
+      transform: rotate(45deg);
+      margin-right: 40px;
+      margin-bottom: 0px
+  }
+
+  .circular>div {
+      justify-content: space-between
+  }
+
+  .circular {
+      margin-bottom: 40px
+  }
+
+  .circular>div>div {
+      width: 400px;
+      height: 400px
+  }
+
+  .circular-container {
+      margin: 150px 0px;
+      padding: 0px 15px
+  }
+}
