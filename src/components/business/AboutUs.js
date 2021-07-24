@@ -5,8 +5,8 @@ import myInfo from "../../data/myInfo";
 const displayAddress = address => {
   if (Array.isArray(address)) {
     return (address || []).map((a, index) => (
-      <div>
-        {a[0]} : {a[1]}
+      <div key={index}>
+        <b>{a[0]}</b> : {a[1]}
       </div>
     ));
   } else {
