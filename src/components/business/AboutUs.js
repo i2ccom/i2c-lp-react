@@ -2,14 +2,28 @@ import React from "react";
 
 import myInfo from "../../data/myInfo";
 
+const displayAddress = address => {
+  if (Array.isArray(address)) {
+    return (address || []).map((a, index) => (
+      <div>
+        {a[0]} : {a[1]}
+      </div>
+    ));
+  } else {
+    return <div>{address}</div>;
+  }
+};
+
 export default function AboutMe(props) {
   return (
     <section className="section" id="about">
       {/* Title */}
-      <div className="section-heading" style={{padding: "40px"}}>
+      <div className="section-heading" style={{ padding: "40px" }}>
         <h3 className="title is-2">{myInfo.name}</h3>
         <h4 className="subtitle is-5">{myInfo.text.summaryShort}</h4>
-        <div className="container"><div dangerouslySetInnerHTML={{__html: myInfo.text.summary}}/></div>
+        <div className="container">
+          <div dangerouslySetInnerHTML={{ __html: myInfo.text.summary }} />
+        </div>
       </div>
       <div className="columns has-same-height is-gapless">
         <div className="column">
@@ -25,7 +39,7 @@ export default function AboutMe(props) {
                     </tr>
                     <tr>
                       <td>Address:</td>
-                      <td>{myInfo.address}</td>
+                      <td>{displayAddress(myInfo.address)}</td>
                     </tr>
                     <tr>
                       <td>Phone:</td>
@@ -55,10 +69,14 @@ export default function AboutMe(props) {
         </div>
         <div className="column">
           {/* Profile picture */}
-          <div className="card" style={{textAlign: "right"}}>
+          <div className="card" style={{ textAlign: "right" }}>
             <div className="card-image">
               <figure className="image is-4by3">
-                <img src={myInfo.pictures.profilePicture} alt={myInfo.name} style={{width: "100%"}}/>
+                <img
+                  src={myInfo.pictures.profilePicture}
+                  alt={myInfo.name}
+                  style={{ width: "100%" }}
+                />
               </figure>
             </div>
           </div>

@@ -1,10 +1,14 @@
 export default {
   name: "i2c",
   email: "i2cvnco@gmail.com",
-  address: "22/8 Nguyen Trai, Hanoi, Vietnam",
+  logo: "/images/logo/i2cvn-logo.png",
+  address: [
+    ["Vietnam office", "22/8 Nguyen Trai, Hanoi, Vietnam"],
+    ["USA office", "70 Perimeter Ctr E, Atlanta, GA, USA, 30246"]
+  ],
   addressList: [
-    {title: "Vietnam Office", address: ""},
-    {title: "USA Office", address: "Atlanta, GA, 30346"}
+    { title: "Vietnam Office", address: "" },
+    { title: "USA Office", address: "Atlanta, GA, 30346" }
   ],
   phone: "0123-456789",
   links: {
@@ -16,7 +20,7 @@ export default {
   pictures: {
     profilePicture: "/images/background/collab2.jpg",
     profilePictureGithub: "",
-    profilePictureTwitter: "",
+    profilePictureTwitter: ""
   },
   text: {
     summaryShort: "Intelligent Cloud Computing",
@@ -24,4 +28,4 @@ export default {
     <p>Intelligent Cloud Computing. Provide SAAS</p>
     `
   }
-}
+};

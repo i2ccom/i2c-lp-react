@@ -1,18 +1,8 @@
 @import "./styles/blockquote.css";
 @import "./styles/gradient.css";
 @import "./styles/hover-zoom.css";
+@import "./styles/particles-js.css";
 
 body {
   font-family: Roboto;
-}
-
-canvas {
-  display: block;
-}
-
-/* particles-js ---------------------------------*/
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
 }

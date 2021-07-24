@@ -1,6 +1,6 @@
 import React from "react";
 
-import myInfo from "../data/myInfo";
+import myInfo from "../../data/myInfo";
 
 export default function Footer(props) {
   return (

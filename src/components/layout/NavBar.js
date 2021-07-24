@@ -7,6 +7,7 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import myInfo from "../../data/myInfo";
 
 export default function NavBar(props) {
   return (
@@ -20,7 +21,10 @@ export default function NavBar(props) {
           <span />
           <span />
         </div> */}
-        <img src="/images/logo/i2cvn-logo.png" style={{height: "40px", paddingLeft: "16px", paddingTop: "4px"}}/>
+        <img
+          src={myInfo.logo}
+          style={{ height: "40px", paddingLeft: "16px", paddingTop: "4px" }}
+        />
       </div>
       <div id="navbarExampleTransparentExample" className="navbar-menu">
         <div className="navbar-end">
@@ -33,6 +37,9 @@ export default function NavBar(props) {
             </span>
             <span>Services</span>
           </Link>
+          <a className="navbar-item" href="https://apisweb.i2cw.com/">
+            <span>APIs</span>
+          </a>
           <Link className="navbar-item" to="/about">
             <span className="icon">
               <i className="fas fa-info" />

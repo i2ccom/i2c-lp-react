@@ -1,0 +1,10 @@
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(72, 131, 240);
+}
+
+#particles-js canvas {
+  display: block;
+}
