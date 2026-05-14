@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120" role="img" aria-label="Urbox logo">
+  <rect width="240" height="120" rx="14" fill="#f8fbff" stroke="#d7e6f7"/>
+  <rect x="30" y="42" width="56" height="36" rx="8" fill="#f97316"/>
+  <path d="M30 52 H86" stroke="#fff" stroke-width="4"/>
+  <text x="96" y="68" font-size="30" font-family="Segoe UI, Arial" font-weight="700" fill="#ea580c">Urbox</text>
+</svg>

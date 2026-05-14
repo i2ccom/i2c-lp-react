@@ -1,0 +1,39 @@
+{
+  "name": "product-concepts",
+  "outputDir": "static/images/product-illustrations",
+  "defaults": {
+    "width": 1536,
+    "height": 1024,
+    "negativePrompt": "blurry, text overlay, watermark, logo, noise, chaotic layout"
+  },
+  "items": [
+    {
+      "filename": "unibi-concept",
+      "prompt": "glassy vector 3d enterprise operations command center, finance and project modules connected by luminous flow lines, premium corporate dashboard concept, cyan navy palette, abstract but realistic UI components, no text"
+    },
+    {
+      "filename": "uniqi-concept",
+      "prompt": "glassy vector 3d education intelligence platform, modular learning paths, progress rings and mentor panels, clean enterprise learning concept, blue teal palette, elegant corporate style, no text"
+    },
+    {
+      "filename": "unifi-concept",
+      "prompt": "glassy vector 3d digital finance control room, transaction rails, risk shield modules, reconciliation panels, premium fintech enterprise concept, steel blue and cyan highlights, no text"
+    },
+    {
+      "filename": "webbuilder-concept",
+      "prompt": "glassy vector 3d website experience studio, composable page blocks, conversion widgets, publishing workflow lanes, premium marketing platform concept, modern corporate style, no text"
+    },
+    {
+      "filename": "tion-concept",
+      "prompt": "glassy vector 3d growth and CRM orchestration board, lead scoring nodes, funnel layers, retention loops, premium business operations concept, teal cyan palette, no text"
+    },
+    {
+      "filename": "viai-concept",
+      "prompt": "glassy vector 3d AI copilot operations interface, knowledge graph cluster, assistant handoff channels, governance panel, premium enterprise AI concept, deep navy and cyan glow, no text"
+    },
+    {
+      "filename": "osee-concept",
+      "prompt": "glassy vector 3d social intelligence command hub, sentiment waves, competitor radar rings, alert tiles, premium corporate analytics concept, dark teal and cyan style, no text"
+    }
+  ]
+}

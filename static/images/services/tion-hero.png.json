@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"success\",\n  \"urls\": [\n    \"https://d2p7pg.cachecloud.net/output/f31228a9-bea6-4717-b108-388ff19fac57-u1_46885677-aba8-41c7-8f44-1cf84eb5d895.jpeg\"\n  ],\n  \"base64\": [],\n  \"local_files\": [\n    {\n      \"path\": \"C:\\\\Users\\\\atomi\\\\Desktop\\\\image_0_Marketing_and_CRM__20260514_015708.jpeg\",\n      \"index\": 0\n    }\n  ],\n  \"error\": null,\n  \"processing_time\": 10.280439615249634,\n  \"model\": \"wavespeed-ai/flux-dev\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

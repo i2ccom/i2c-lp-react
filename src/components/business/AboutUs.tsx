@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutUs.css";
 
 import myInfo from "../../data/data.info";
 
@@ -23,7 +24,7 @@ const companyFacts = [
   ["Commitment", "Ethical and transparent AI tools"]
 ];
 
-const displayAddress = address => {
+const displayAddress = (address: any) => {
   if (Array.isArray(address)) {
     return (address || []).map((a, index) => (
       <div key={index}>
@@ -35,96 +36,94 @@ const displayAddress = address => {
   }
 };
 
-export default function AboutMe(props) {
+export default function AboutMe() {
   return (
-    <section className="section" id="about">
-      <div className="section-heading" style={{ padding: "40px" }}>
-        <h3 className="title is-2">{myInfo.name}</h3>
-        <h4 className="subtitle is-5">{myInfo.text.summaryShort}</h4>
+    <section className="section modern-about-section" id="about">
+      <img src="/images/background/orb-cyan.svg" alt="" aria-hidden="true" className="about-parallax-orb about-parallax-orb-cyan" />
+      <img src="/images/background/orb-indigo.svg" alt="" aria-hidden="true" className="about-parallax-orb about-parallax-orb-indigo" />
+
+      <div className="section-heading modern-about-hero">
+        <p className="modern-about-eyebrow">⚡ About i2cw</p>
+        <h3 className="title is-2 modern-about-title">{myInfo.name}</h3>
+        <h4 className="subtitle is-5 modern-about-subtitle">{myInfo.text.summaryShort}</h4>
         <div className="container">
           {aboutParagraphs.slice(0, 2).map((paragraph, index) => (
-            <p key={index} style={{ marginBottom: "1rem" }}>
+            <p key={index} className="modern-about-paragraph">
               {paragraph}
             </p>
           ))}
         </div>
       </div>
-      <div className="columns has-same-height is-gapless">
-        <div className="column">
-          <div className="card">
-            <div className="card-content">
-              <h3 className="title is-4">Company Overview</h3>
-              <div className="content">
-                <table className="table-profile is-fullwidth">
-                  <tbody>
-                    <tr>
-                      <th colSpan={1} />
-                      <th colSpan={2} />
+
+      <div className="modern-about-cards">
+        <div className="card modern-about-card">
+          <div className="card-content">
+            <h3 className="title is-4">🏢 Company Overview</h3>
+            <div className="content">
+              <table className="table-profile is-fullwidth">
+                <tbody>
+                  <tr>
+                    <th colSpan={1} />
+                    <th colSpan={2} />
+                  </tr>
+                  {companyFacts.map(([label, value]) => (
+                    <tr key={label}>
+                      <td>{label}:</td>
+                      <td>{value}</td>
                     </tr>
-                    {companyFacts.map(([label, value]) => (
-                      <tr key={label}>
-                        <td>{label}:</td>
-                        <td>{value}</td>
-                      </tr>
-                    ))}
-                    <tr>
-                      <td>Address:</td>
-                      <td>{displayAddress(myInfo.address)}</td>
-                    </tr>
-                    <tr>
-                      <td>Phone:</td>
-                      <td>{myInfo.phone}</td>
-                    </tr>
-                    <tr>
-                      <td>Email:</td>
-                      <td>{myInfo.email}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <br />
-              <div className="buttons has-addons is-centered">
-                <a href={myInfo.links.website} className="button is-link">
-                  Website
-                </a>
-                <a href={myInfo.links.github} className="button is-link">
-                  Github
-                </a>
-                <a href={myInfo.links.linkedIn} className="button is-link">
-                  LinkedIn
-                </a>
-                <a href={myInfo.links.twitter} className="button is-link">
-                  Twitter
-                </a>
-              </div>
+                  ))}
+                  <tr>
+                    <td>Address:</td>
+                    <td>{displayAddress(myInfo.address)}</td>
+                  </tr>
+                  <tr>
+                    <td>Email:</td>
+                    <td>{myInfo.email}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br />
+            <div className="buttons has-addons is-centered modern-about-socials">
+              <a href={myInfo.links.website} className="button is-link">
+                Website
+              </a>
+              <a href={myInfo.links.github} className="button is-link">
+                Github
+              </a>
+              <a href={myInfo.links.linkedIn} className="button is-link">
+                LinkedIn
+              </a>
+              <a href={myInfo.links.twitter} className="button is-link">
+                Twitter
+              </a>
             </div>
           </div>
         </div>
-        <div className="column">
-          <div className="card" style={{ height: "100%" }}>
-            <div className="card-content">
-              <h3 className="title is-4">Core Services & Vision</h3>
-              <div className="content">
-                <ul>
-                  {coreServices.map(service => (
-                    <li key={service}>{service}</li>
-                  ))}
-                </ul>
-                <p>
-                  <strong>Vision:</strong> To be the global leader in
-                  accessible, high-impact AI cloud solutions that drive
-                  measurable business value and human-centric innovation.
-                </p>
-              </div>
+
+        <div className="card modern-about-card">
+          <div className="card-content">
+            <h3 className="title is-4">🚀 Core Services & Vision</h3>
+            <div className="content">
+              <ul className="modern-about-core-list">
+                {coreServices.map(service => (
+                  <li key={service}>{service}</li>
+                ))}
+              </ul>
+              <p className="modern-about-vision-text">
+                <strong>🌌 Vision:</strong> To be the global leader in
+                accessible, high-impact AI cloud solutions that drive
+                measurable business value and human-centric innovation.
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="section-heading" style={{ padding: "40px 40px 0" }}>
+      <div className="section-heading modern-about-tail">
         <div className="container">
           {aboutParagraphs.slice(2).map((paragraph, index) => (
-            <p key={index} style={{ marginBottom: "1rem" }}>
+            <p key={index} className="modern-about-paragraph">
               {paragraph}
             </p>
           ))}
@@ -132,20 +131,4 @@ export default function AboutMe(props) {
       </div>
     </section>
   );
-}
-
-{
-  /* Skills tags */
-}
-{
-  /* <br>
-            <div class="tags custom-tags">
-              <span class="tag is-light">Node.js</span><span class="tag is-light">Express.js</span><span class="tag is-light">VueJS</span><span
-                class="tag is-light">JavaScript</span><span class="tag is-light">HTML5</span><span class="tag is-light">Canvas</span><span
-                class="tag is-light">CSS3</span><span class="tag is-light">Bulma</span><span class="tag is-light">Bootstrap</span><span
-                class="tag is-light">jQuery</span><span class="tag is-light">Pug</span><span class="tag is-light">Stylus</span><span
-                class="tag is-light">SASS/SCSS</span><span class="tag is-light">Webpack</span><span class="tag is-light">Git</span><span
-                class="tag is-light">ASP.NET Web Forms</span><span class="tag is-light">MSSQL</span><span class="tag is-light">MongoDB</span><span
-                class="tag is-light">Apache Cordova</span><span class="tag is-light">Chrome Extensions</span>
-            </div> */
 }

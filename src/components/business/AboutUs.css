@@ -1,0 +1,156 @@
+.modern-about-section {
+  padding-top: 1.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-parallax-orb {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.55;
+  filter: blur(0.4px);
+}
+
+.about-parallax-orb-cyan {
+  width: 280px;
+  top: 18px;
+  right: -70px;
+  animation: aboutFloatA 9s ease-in-out infinite;
+}
+
+.about-parallax-orb-indigo {
+  width: 240px;
+  bottom: 16px;
+  left: -70px;
+  animation: aboutFloatB 11s ease-in-out infinite;
+}
+
+@keyframes aboutFloatA {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-10px, 12px, 0);
+  }
+}
+
+@keyframes aboutFloatB {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(14px, -10px, 0);
+  }
+}
+
+.modern-about-hero {
+  padding: 2.1rem 1rem 1.4rem;
+  margin-bottom: 1.3rem;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(170deg, #ffffff 0%, #f8fbff 100%);
+  border: 1px solid #dbe6f3;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(13, 43, 69, 0.08);
+}
+
+.modern-about-title {
+  color: var(--brand-navy);
+}
+
+.modern-about-subtitle {
+  color: #0f3552 !important;
+  font-weight: 600;
+}
+
+.modern-about-paragraph {
+  max-width: 75ch;
+  color: #173853;
+  line-height: 1.72;
+  margin-bottom: 1rem;
+  font-size: 1.01rem;
+}
+
+.modern-about-cards {
+  margin-top: 1.2rem;
+  display: grid;
+  gap: 1rem;
+  width: min(980px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.modern-about-card {
+  border-radius: 14px;
+  border: 1px solid #cfe0f4;
+  background:
+    linear-gradient(168deg, rgba(255, 255, 255, 0.96) 0%, rgba(237, 247, 255, 0.95) 100%);
+  box-shadow:
+    0 14px 34px rgba(13, 43, 69, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.55);
+}
+
+.modern-about-card .title {
+  color: #0d2b45;
+}
+
+.modern-about-card .card-content {
+  padding: 1.25rem 1.3rem;
+}
+
+.modern-about-card .content {
+  color: #17324c;
+}
+
+.modern-about-card .content ul {
+  margin-left: 1rem;
+}
+
+.modern-about-card .content li {
+  margin-bottom: 0.45rem;
+  color: #12314d;
+}
+
+.modern-about-core-list li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.35rem;
+}
+
+.modern-about-core-list li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0ea5e9;
+  font-weight: 700;
+}
+
+.modern-about-vision-text {
+  margin-top: 0.95rem;
+  padding: 0.75rem 0.85rem;
+  border-radius: 10px;
+  background: linear-gradient(140deg, #e0f2fe 0%, #eef2ff 100%);
+  border: 1px solid #c7def3;
+  color: #0f2f49;
+}
+
+.table-profile td,
+.table-profile th {
+  border-color: #e2ebf7 !important;
+  color: #1f3347;
+}
+
+.modern-about-socials .button {
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.modern-about-tail {
+  padding: 2.1rem 1rem 0;
+}

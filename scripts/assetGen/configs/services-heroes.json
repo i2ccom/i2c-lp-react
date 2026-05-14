@@ -1,0 +1,39 @@
+{
+  "name": "services-heroes",
+  "outputDir": "static/images/services",
+  "defaults": {
+    "width": 1600,
+    "height": 900,
+    "negativePrompt": "blurry, low contrast, watermark, logo, random text, cluttered UI, distorted perspective"
+  },
+  "items": [
+    {
+      "filename": "unibi-hero",
+      "prompt": "A modern enterprise operations control center, dashboard holograms, project timeline ribbons, budget and resource panels, navy and cyan palette, premium SaaS look, soft volumetric light, depth of field, high detail, clean composition, no text."
+    },
+    {
+      "filename": "uniqi-hero",
+      "prompt": "Digital learning ecosystem scene with adaptive course paths, student progress nodes, instructor analytics panels, warm blue and amber accents, optimistic educational technology mood, modern 3D illustration, no text."
+    },
+    {
+      "filename": "unifi-hero",
+      "prompt": "Fintech infrastructure visual with secure transaction rails, transparent ledger layers, tokenized financial flows, trust and compliance motifs, emerald and graphite color scheme, elegant and futuristic, no text."
+    },
+    {
+      "filename": "webbuilder-hero",
+      "prompt": "No-code website builder studio with modular page blocks, drag-and-drop UI metaphors, design system components floating in space, bright creative atmosphere, coral and indigo accents, clean 3D style, no text."
+    },
+    {
+      "filename": "tion-hero",
+      "prompt": "Marketing and CRM orchestration visual with funnel layers, customer journey arcs, audience segments, campaign signals converging into revenue dashboard, magenta and teal accents, data-driven modern style, no text."
+    },
+    {
+      "filename": "viai-hero",
+      "prompt": "AI assistant platform visual with conversational streams, knowledge graph structures, human handoff pathways, trust guardrails, teal blue graphite palette, intelligent but practical tone, no text."
+    },
+    {
+      "filename": "osee-hero",
+      "prompt": "Social listening intelligence center with real-time sentiment waves, multi-channel signal tiles, competitor radar rings, alert indicators, electric cyan and sunset orange accents, high-clarity analytical style, no text."
+    }
+  ]
+}

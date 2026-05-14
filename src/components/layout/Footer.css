@@ -1,0 +1,53 @@
+.modern-footer {
+  background: linear-gradient(155deg, #0b2438 0%, #143656 100%);
+  color: #dbebff;
+  margin-top: 2rem;
+}
+
+.modern-footer a {
+  color: #9ed8ff;
+}
+
+.modern-footer-brand {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.modern-footer-logo {
+  height: 34px;
+  margin-top: 0.15rem;
+}
+
+.modern-footer-title {
+  color: #ecf6ff;
+}
+
+.modern-footer-text,
+.modern-footer-meta {
+  color: #d0e4f8;
+}
+
+.modern-footer-heading {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #8bc7f3;
+  margin-bottom: 0.65rem;
+  font-weight: 700;
+}
+
+.modern-footer-list {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.modern-footer-list.two-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 900px) {
+  .modern-footer-list.two-col {
+    grid-template-columns: 1fr;
+  }
+}

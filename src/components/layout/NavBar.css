@@ -1,0 +1,49 @@
+.navbar.is-fixed-top + * {
+  scroll-margin-top: 5rem;
+}
+
+.modern-navbar {
+  background: rgba(13, 43, 69, 0.94);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 24px rgba(13, 43, 69, 0.22);
+}
+
+.modern-navbar .navbar-item,
+.modern-navbar .button {
+  color: #ecf6ff;
+}
+
+.modern-navbar .navbar-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+.modern-navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.modern-navbar-logo {
+  height: 34px;
+}
+
+.modern-navbar-brand-text {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.modern-navbar-links {
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.modern-navbar-cta {
+  margin-left: 0.6rem;
+}
+
+@media (max-width: 900px) {
+  .modern-navbar .navbar-menu {
+    overflow-x: auto;
+  }
+}

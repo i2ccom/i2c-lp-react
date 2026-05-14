@@ -1,0 +1,62 @@
+.services-hero {
+  background:
+    radial-gradient(circle at 10% 8%, rgba(20, 184, 166, 0.22), transparent 42%),
+    radial-gradient(circle at 92% 0%, rgba(14, 165, 233, 0.2), transparent 46%),
+    linear-gradient(180deg, #eaf6ff 0%, #f7fbff 52%, #f7fafc 100%);
+  padding-top: 5.6rem;
+  padding-bottom: 2.5rem;
+}
+
+.services-hero-inner {
+  padding: 1.35rem 1rem;
+  border: 1px solid #d4e4f5;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 16px 34px rgba(13, 43, 69, 0.1);
+}
+
+.services-hero-title {
+  color: #052340;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: 0.005em;
+  text-wrap: balance;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .services-hero-title {
+    background: linear-gradient(96deg, #052340 0%, #0f3d63 45%, #0f766e 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+.services-hero-subtitle {
+  color: #143753;
+  max-width: 62ch;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.services-hero-corporate-wrap {
+  margin: 0.95rem auto 0;
+  border: 1px solid #d4e4f5;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 14px 30px rgba(13, 43, 69, 0.12);
+  max-width: 860px;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.services-hero-corporate-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}

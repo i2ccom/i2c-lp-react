@@ -1,14 +1,17 @@
 import React from "react";
 
-export default function Testimonial(props) {
-  const { text, subtitle, cite, photo, link } = props;
+type TestimonialProps = {
+  text: string;
+  cite?: string;
+};
+
+export default function Testimonial(props: TestimonialProps) {
+  const { text, cite } = props;
   return (
-    <div className="block is-centered">
-      <blockquote className="quote" style={{fontSize: "24px"}}>
-        {text}
-        <br/>
-        <cite>{cite}</cite>
-      </blockquote>
+    <div className="testimonial-modern">
+      <p className="testimonial-emoji" aria-hidden="true">💬</p>
+      <blockquote className="testimonial-modern-quote">{text}</blockquote>
+      {cite ? <p className="testimonial-modern-cite">{cite}</p> : null}
     </div>
-  )
+  );
 }

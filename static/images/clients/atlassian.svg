@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120" role="img" aria-label="Atlassian logo">
+  <rect width="240" height="120" rx="14" fill="#f8fbff" stroke="#d7e6f7"/>
+  <path d="M40 78 L58 42 L76 78 Z" fill="#2563eb"/>
+  <path d="M62 78 L74 56 L86 78 Z" fill="#60a5fa"/>
+  <text x="96" y="68" font-size="24" font-family="Segoe UI, Arial" font-weight="700" fill="#1d4ed8">Atlassian</text>
+</svg>

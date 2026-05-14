@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"error\",\n  \"urls\": [],\n  \"base64\": [],\n  \"local_files\": [],\n  \"error\": \"Failed to generate image: Request failed: {\\\"code\\\":400,\\\"message\\\":\\\"client error: model not found\\\"}\",\n  \"processing_time\": 0.0,\n  \"model\": null\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "team-members",
+  "outputDir": "static/images/team-members",
+  "defaults": {
+    "width": 1024,
+    "height": 1024,
+    "negativePrompt": "blurry, extra face, text, watermark, logo, distorted face"
+  },
+  "items": [
+    {
+      "filename": "michael-nguyen",
+      "prompt": "professional founder portrait, asian male in his 30s, modern business casual, confident expression, futuristic office bokeh, cinematic but natural lighting, realistic, no text"
+    },
+    {
+      "filename": "linh-tran",
+      "prompt": "professional founder portrait, asian female in her 30s, engineering lead style, modern smart casual, calm confident look, subtle tech background, realistic, no text"
+    },
+    {
+      "filename": "quang-pham",
+      "prompt": "professional founder portrait, asian male in his 30s, growth and strategy lead style, sharp business casual, approachable confident expression, realistic, no text"
+    }
+  ]
+}

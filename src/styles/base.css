@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap");
+
+:root {
+  --brand-navy: #0d2b45;
+  --brand-cyan: #14b8a6;
+  --brand-sun: #f59e0b;
+  --surface-muted: #eef4fa;
+  --ink: #1f2937;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  background-color: #f7fafc;
+  color: var(--ink);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+  font-family: "Exo 2", "Space Grotesk", "Segoe UI", sans-serif;
+  letter-spacing: 0.01em;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #f7fafc;
+}
+
+.section {
+  padding: 2.25rem 0 2rem;
+}
+
+.section > .container {
+  width: min(1120px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.section-heading {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto 1.2rem;
+  text-align: center;
+}
+
+.section-heading .title,
+.section-heading .subtitle,
+.section-heading p {
+  max-width: 76ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading .subtitle,
+.section-heading p {
+  color: #24415b;
+  font-weight: 500;
+}
+
+.services-eyebrow,
+.service-detail-eyebrow,
+.modern-about-eyebrow,
+.modern-clients-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0ea5e9;
+}
+
+@media (max-width: 1024px) {
+  .section {
+    padding: 1.85rem 0 1.7rem;
+  }
+
+  .section > .container,
+  .section-heading {
+    width: min(1120px, calc(100% - 1.5rem));
+  }
+}

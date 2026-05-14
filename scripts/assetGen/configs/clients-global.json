@@ -1,0 +1,15 @@
+{
+  "name": "clients-global",
+  "outputDir": "static/images/clients",
+  "defaults": {
+    "width": 1536,
+    "height": 1024,
+    "negativePrompt": "text, watermark, blurry, low quality, cluttered, chaotic"
+  },
+  "items": [
+    {
+      "filename": "global-clients-network",
+      "prompt": "premium 3d global corporate illustration, world map network with central i2c hub, 15 large client nodes worldwide, 3 data center hubs, clean enterprise style, blue cyan palette, business infrastructure visualization, no text, high-end corporate presentation visual"
+    }
+  ]
+}

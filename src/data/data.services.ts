@@ -1,52 +1,73 @@
 export default {
   services: [
     {
+      slug: "unibi",
       title: "UniBi",
       description: "Next-gen ERP & Project Management",
-      imageUrl: "/images/products/unibi.jpg",
-      link: "https://unibi.surge.sh",
+      logoUrl: "/images/products/unibi.jpg",
+      heroImageUrl: "/images/services/unibi-hero.jpeg",
+      link: "https://services.i2cw.com/unibi",
+      showInFooter: true,
       p: 1
     },
     {
+      slug: "uniqi",
       title: "UniQi",
       description: "Next-gen Education Platform",
-      imageUrl: "/images/products/uniqi.jpg",
-      link: "https://uniqi.surge.sh",
+      logoUrl: "/images/products/uniqi.jpg",
+      heroImageUrl: "/images/services/uniqi-hero.jpeg",
+      link: "https://services.i2cw.com/uniqi",
+      showInFooter: true,
       p: 1
     },
     {
+      slug: "unifi",
       title: "UniFi",
       description: "Next-gen Finance Platform by Blockchain",
-      imageUrl: "/images/products/unifi.jpg",
-      link: "https://unifi.surge.sh",
+      logoUrl: "/images/products/unifi.jpg",
+      heroImageUrl: "/images/services/unifi-hero.jpeg",
+      link: "https://services.i2cw.com/unifi",
+      showInFooter: true,
       p: 1
     },
     {
+      slug: "webbuilder",
       title: "WebBuilder",
       description: "Web Builder",
-      imageUrl: "/images/products/iWeb.jpg",
-      link: "https://i2cwebbuilder.surge.sh",
+      logoUrl: "/images/products/iWeb.jpg",
+      heroImageUrl: "/images/services/webbuilder-hero.jpeg",
+      link: "https://services.i2cw.com/webbuilder",
+      showInFooter: true,
       p: 2
     },
     {
+      slug: "tion",
       title: "Tion",
       description: "Smart marketing and CRM",
-      imageUrl: "/images/products/tion.jpg",
-      link: "https://tion.surge.sh",
+      logoUrl: "/images/products/tion.jpg",
+      heroImageUrl: "/images/services/tion-hero.jpeg",
+      link: "https://services.i2cw.com/tion",
+      showInFooter: true,
       p: 2
     },
     {
+      slug: "viai",
       title: "ViAI",
       description: "AI Assistant Platform",
-      imageUrl: "/images/products/viai.jpg",
-      link: "https://viai.surge.sh",
+      logoUrl: "/images/products/viai.jpg",
+      heroImageUrl: "/images/services/viai-hero.jpeg",
+      link: "https://services.i2cw.com/viai",
+      showInFooter: true,
       p: 2
     },
     {
+      slug: "osee",
       title: "OSee",
       description: "Social Listening Platform",
-      imageUrl: "/images/products/osee.jpg",
-      link: "https://osee.surge.sh",
+      logoUrl: "/images/products/osee.jpg",
+      heroImageUrl: "/images/services/osee-hero.jpeg",
+      link: "https://services.i2cw.com/osee",
+      showInFooter: true,
       p: 2
     }
   ]

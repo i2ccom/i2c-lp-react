@@ -2,3 +2,14 @@
   color: white;
   /* background-color: cornflowerblue; */
 }
+
+.hero .title {
+  color: #f8fcff !important;
+  text-shadow: 0 4px 18px rgba(5, 25, 45, 0.45);
+}
+
+.hero .subtitle {
+  color: #dff4ff !important;
+  font-weight: 600;
+  text-shadow: 0 3px 14px rgba(5, 25, 45, 0.35);
+}

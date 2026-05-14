@@ -1,0 +1,75 @@
+.ai-apps-section {
+  background: radial-gradient(circle at 90% 0%, rgba(14, 165, 233, 0.12), transparent 45%), #f8fbff;
+  border-top: 1px solid #dbe6f3;
+  border-bottom: 1px solid #dbe6f3;
+}
+
+.ai-apps-title {
+  color: var(--brand-navy);
+}
+
+.ai-apps-subtitle {
+  color: #3f5369;
+  max-width: 68ch;
+}
+
+.ai-apps-grid {
+  margin-top: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem;
+}
+
+.ai-app-card {
+  background: linear-gradient(165deg, #ffffff 0%, #eef7ff 100%);
+  border: 1px solid #d6e4f3;
+  border-radius: 14px;
+  padding: 0.8rem;
+  box-shadow: 0 12px 28px rgba(13, 43, 69, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ai-app-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(13, 43, 69, 0.14);
+}
+
+.ai-app-icon {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid #d5e3f2;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.25);
+}
+
+.ai-app-name {
+  margin-top: 0.6rem;
+  font-family: "Exo 2", "Space Grotesk", "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0d2b45;
+}
+
+.ai-app-tagline {
+  margin-top: 0.2rem;
+  color: #44576d;
+  font-size: 0.87rem;
+}
+
+.ai-apps-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ai-apps-more-btn {
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  background: linear-gradient(130deg, #0ea5e9 0%, #14b8a6 60%, #38bdf8 100%) !important;
+  border: none;
+  box-shadow: 0 10px 20px rgba(20, 184, 166, 0.3);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}

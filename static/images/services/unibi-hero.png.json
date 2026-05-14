@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"success\",\n  \"urls\": [\n    \"https://d2p7pg.cachecloud.net/output/b74c299e-e889-4730-b499-973fe97b5c91-u1_4018285c-744e-409d-b51f-ef46f3b04bbc.jpeg\"\n  ],\n  \"base64\": [],\n  \"local_files\": [\n    {\n      \"path\": \"C:\\\\Users\\\\atomi\\\\Desktop\\\\image_0_A_modern_enterpris_20260514_015626.jpeg\",\n      \"index\": 0\n    }\n  ],\n  \"error\": null,\n  \"processing_time\": 8.201381206512451,\n  \"model\": \"wavespeed-ai/flux-dev\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

@@ -1,0 +1,80 @@
+.about-tabs-page {
+  padding-top: 5.25rem;
+  background:
+    radial-gradient(circle at 12% 4%, rgba(20, 184, 166, 0.14), transparent 38%),
+    radial-gradient(circle at 88% 6%, rgba(59, 130, 246, 0.16), transparent 42%),
+    linear-gradient(180deg, #f7fafc 0%, #edf5ff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-tabs-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/background/futuristic-geo-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.12;
+  filter: saturate(0.88) contrast(0.95);
+  pointer-events: none;
+}
+
+.about-tabs-page > .container,
+.about-tabs-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.about-tabs-page > .container {
+  margin-bottom: 0.75rem;
+}
+
+.about-tabs-title {
+  color: var(--brand-navy);
+}
+
+.about-tabs-subtitle {
+  color: #1c3b55;
+}
+
+.about-tabs-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.45rem;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid #dbe6f3;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(13, 43, 69, 0.08);
+}
+
+.about-tab-btn {
+  color: #072743;
+  padding: 0.6rem 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid #dbe6f3;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.about-tab-btn.is-active {
+  border-color: #38bdf8;
+  color: #0b4a6b;
+  background: linear-gradient(140deg, #e0f2fe 0%, #ecfeff 100%);
+  box-shadow: 0 8px 22px rgba(20, 184, 166, 0.2);
+}
+
+.about-tabs-panel {
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 1024px) {
+  .about-tabs-page::before {
+    background-attachment: scroll;
+  }
+}

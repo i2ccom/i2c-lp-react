@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"success\",\n  \"urls\": [\n    \"https://d2p7pg.cachecloud.net/output/ea92ad74-bcd7-4717-926e-748d0a99222e-u2_a6ca9110-d8ff-4eb0-b620-0531a270be13.jpeg\"\n  ],\n  \"base64\": [],\n  \"local_files\": [\n    {\n      \"path\": \"C:\\\\Users\\\\atomi\\\\Desktop\\\\image_0_No-code_website_bu_20260514_015657.jpeg\",\n      \"index\": 0\n    }\n  ],\n  \"error\": null,\n  \"processing_time\": 5.546252727508545,\n  \"model\": \"wavespeed-ai/flux-dev\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

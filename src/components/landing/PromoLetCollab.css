@@ -1,0 +1,14 @@
+.collab-section {
+  position: relative;
+}
+
+.collab-title {
+  color: #062844 !important;
+  font-weight: 800;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.collab-subtitle {
+  color: #154463 !important;
+  font-weight: 600;
+}

@@ -1,83 +1,43 @@
 import React from "react";
+import "./AiAppsSection.css";
 
-const aiAppHighlights = [
-  "AI-first workflow assistant designed for business reporting and operational visibility.",
-  "Fits cloud-native teams that need faster analysis, summaries, and next-step recommendations.",
-  "Built in the same practical product direction shown on i2cw.com: usable AI apps, not AI demos."
+const aiApps = [
+  { name: "aiReport", subtitle: "Smart reporting", icon: "/images/ai-apps/icons/ai-report.jpeg" },
+  { name: "aiSales Copilot", subtitle: "Pipeline guidance", icon: "/images/ai-apps/icons/ai-sales-copilot.jpeg" },
+  { name: "aiSupport", subtitle: "Ticket assistant", icon: "/images/ai-apps/icons/ai-support.jpeg" },
+  { name: "aiForecast", subtitle: "Demand forecast", icon: "/images/ai-apps/icons/ai-forecast.jpeg" },
+  { name: "aiContract", subtitle: "Clause intelligence", icon: "/images/ai-apps/icons/ai-contract.jpeg" },
+  { name: "aiCampaign", subtitle: "Growth automation", icon: "/images/ai-apps/icons/ai-campaign.jpeg" },
+  { name: "aiOps", subtitle: "Ops anomaly watch", icon: "/images/ai-apps/icons/ai-ops.jpeg" },
+  { name: "aiKnowledge", subtitle: "Enterprise search", icon: "/images/ai-apps/icons/ai-knowledge.jpeg" }
 ];
 
 export default function AiAppsSection() {
   return (
-    <section className="section" id="ai-apps">
+    <section className="section ai-apps-section" id="ai-apps">
       <div className="container">
-        <div className="columns is-vcentered is-variable is-7">
-          <div className="column is-5">
-            <p className="has-text-weight-semibold" style={{ color: "#2563eb" }}>
-              AI Apps
-            </p>
-            <h2 className="title is-2" style={{ marginTop: "0.5rem" }}>
-              AI Report
-            </h2>
-            <p className="subtitle is-5" style={{ color: "#4b5563" }}>
-              AI-powered reporting for faster decisions, cleaner summaries, and
-              business-ready outputs.
-            </p>
-            <div className="content" style={{ color: "#374151" }}>
-              <p>
-                The live i2cw home page highlights AI Apps as part of the
-                company&apos;s product direction. This section brings that idea into
-                the landing page with a focused showcase for AI Report.
-              </p>
-              <ul>
-                {aiAppHighlights.map(item => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-              <p>
-                Everything is positioned around practical business delivery:
-                clear outputs, cloud-ready deployment, and usable AI in day-to-day
-                operations.
-              </p>
-            </div>
-          </div>
-          <div className="column is-7">
-            <div
-              className="card"
-              style={{ borderRadius: "24px", overflow: "hidden", boxShadow: "0 24px 60px rgba(37, 99, 235, 0.12)" }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "1rem",
-                  padding: "1.25rem 1.5rem",
-                  borderBottom: "1px solid #e5e7eb",
-                  background: "linear-gradient(180deg, #ffffff 0%, #eff6ff 100%)"
-                }}
-              >
-                <img
-                  src="/images/ai-apps/aiReport/logo.png"
-                  alt="AI Report logo"
-                  style={{ width: "64px", height: "64px", objectFit: "contain", borderRadius: "16px", background: "#fff" }}
-                />
-                <div>
-                  <h3 className="title is-4" style={{ marginBottom: "0.25rem" }}>
-                    aiReport
-                  </h3>
-                  <p style={{ margin: 0, color: "#6b7280" }}>
-                    AI app showcase inspired by the live i2cw home page.
-                  </p>
-                </div>
-              </div>
-              <div style={{ padding: "1rem", background: "#f8fafc" }}>
-                <img
-                  src="/images/ai-apps/aiReport/screenshot_01.jpg"
-                  alt="AI Report screenshot"
-                  style={{ width: "100%", display: "block", borderRadius: "18px" }}
-                />
-              </div>
-            </div>
-          </div>
+        <div className="section-heading">
+          <p className="services-eyebrow">AI Apps</p>
+          <h2 className="title is-2 ai-apps-title">Fast, practical AI apps for real workflows</h2>
+          <p className="ai-apps-subtitle">
+            Explore our first app set. Built for speed, clarity, and measurable business outcomes.
+          </p>
+        </div>
+
+        <div className="ai-apps-grid" role="list" aria-label="AI app cards">
+          {aiApps.map((app) => (
+            <article className="ai-app-card" key={app.name} role="listitem">
+              <img src={app.icon} alt={`${app.name} icon`} className="ai-app-icon" loading="lazy" />
+              <h3 className="ai-app-name">{app.name}</h3>
+              <p className="ai-app-tagline">{app.subtitle}</p>
+            </article>
+          ))}
+        </div>
+
+        <div className="ai-apps-actions">
+          <a className="button is-link ai-apps-more-btn" href="/services">
+            More
+          </a>
         </div>
       </div>
     </section>

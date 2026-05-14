@@ -1,16 +1,16 @@
 export default {
   name: "i2c",
-  email: "i2cvnco@gmail.com",
+  email: "contact@i2cw.com",
   logo: "/images/logo/i2cvn-logo.png",
   address: [
-    ["Vietnam office", "22/8 Nguyen Trai, Hanoi, Vietnam"],
-    ["USA office", "70 Perimeter Ctr E, Atlanta, GA, USA, 30246"]
+    ["🇻🇳 VN office", "22/8 Nguyen Trai, Hanoi, Vietnam"],
+    ["🇺🇸 US office", "70 Perimeter Ctr E, Atlanta, GA, USA, 30246"]
   ],
   addressList: [
-    { title: "Vietnam Office", address: "" },
-    { title: "USA Office", address: "Atlanta, GA, 30346" }
+    { title: "🇻🇳 VN Office", address: "" },
+    { title: "🇺🇸 US Office", address: "Atlanta, GA, 30346" }
   ],
-  phone: "0123-456789",
+  phone: "",
   links: {
     website: "https://i2c.vn",
     github: "https://github.com/i2cvn",

@@ -1,0 +1,43 @@
+{
+  "name": "ai-app-icons",
+  "outputDir": "static/images/ai-apps/icons",
+  "defaults": {
+    "width": 512,
+    "height": 512,
+    "negativePrompt": "blurry, low contrast, watermark, logo text, random text, cluttered composition"
+  },
+  "items": [
+    {
+      "filename": "ai-report",
+      "prompt": "futuristic minimal icon of analytics dashboard and AI spark, cyan blue gradient, clean app icon style, no text"
+    },
+    {
+      "filename": "ai-sales-copilot",
+      "prompt": "futuristic minimal icon of growth chart and assistant node, teal indigo palette, clean app icon style, no text"
+    },
+    {
+      "filename": "ai-support",
+      "prompt": "futuristic minimal icon of headset and chat bubble with ai glow, blue cyan palette, clean app icon style, no text"
+    },
+    {
+      "filename": "ai-forecast",
+      "prompt": "futuristic minimal icon of trend line and prediction pulse, cool blue palette, clean app icon style, no text"
+    },
+    {
+      "filename": "ai-contract",
+      "prompt": "futuristic minimal icon of legal document and shield intelligence, cyan slate palette, clean app icon style, no text"
+    },
+    {
+      "filename": "ai-campaign",
+      "prompt": "futuristic minimal icon of megaphone with signal rings and ai core, teal sky palette, clean app icon style, no text"
+    },
+    {
+      "filename": "ai-ops",
+      "prompt": "futuristic minimal icon of gears and anomaly radar ring, neon cyan palette, clean app icon style, no text"
+    },
+    {
+      "filename": "ai-knowledge",
+      "prompt": "futuristic minimal icon of connected knowledge nodes and search lens, blue aqua palette, clean app icon style, no text"
+    }
+  ]
+}

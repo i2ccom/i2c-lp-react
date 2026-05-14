@@ -1,0 +1,71 @@
+{
+  "name": "product-illustrations",
+  "outputDir": "static/images/product-illustrations",
+  "defaults": {
+    "width": 1536,
+    "height": 1024,
+    "negativePrompt": "blurry, text, watermark, logo, low quality, artifacts, bad perspective"
+  },
+  "items": [
+    {
+      "filename": "unibi-ui-1",
+      "prompt": "high-end SaaS UI illustration for UniBi, enterprise operations dashboard, realistic product interface screen with cards, charts and clean controls, futuristic but practical, enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "unibi-ui-2",
+      "prompt": "workflow scene for UniBi, team using enterprise operations dashboard in modern office, screen-focused composition, premium enterprise software visual, asian market context, realistic lighting, no text"
+    },
+    {
+      "filename": "uniqi-ui-1",
+      "prompt": "high-end SaaS UI illustration for UniQi, education and learning platform, realistic product interface screen with cards, charts and clean controls, futuristic but practical, enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "uniqi-ui-2",
+      "prompt": "workflow scene for UniQi, team using education and learning platform dashboard in modern office, screen-focused composition, premium enterprise software visual, asian market context, realistic lighting, no text"
+    },
+    {
+      "filename": "unifi-ui-1",
+      "prompt": "high-end SaaS UI illustration for UniFi, fintech and digital finance platform, realistic product interface screen with cards, charts and clean controls, futuristic but practical, enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "unifi-ui-2",
+      "prompt": "workflow scene for UniFi, team using fintech and digital finance platform dashboard in modern office, screen-focused composition, premium enterprise software visual, asian market context, realistic lighting, no text"
+    },
+    {
+      "filename": "webbuilder-ui-1",
+      "prompt": "high-end SaaS UI illustration for WebBuilder, no-code website and campaign builder, realistic product interface screen with cards, charts and clean controls, futuristic but practical, enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "webbuilder-ui-2",
+      "prompt": "workflow scene for WebBuilder, team using no-code website and campaign builder dashboard in modern office, screen-focused composition, premium enterprise software visual, asian market context, realistic lighting, no text"
+    },
+    {
+      "filename": "tion-ui-1",
+      "prompt": "high-end SaaS UI illustration for Tion, marketing and CRM command center, realistic product interface screen with cards, charts and clean controls, futuristic but practical, enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "tion-ui-2",
+      "prompt": "workflow scene for Tion, team using marketing and CRM command center dashboard in modern office, screen-focused composition, premium enterprise software visual, asian market context, realistic lighting, no text"
+    },
+    {
+      "filename": "viai-ui-1",
+      "prompt": "high-end SaaS UI illustration for ViAI, AI assistant and workflow orchestration platform, realistic product interface screen with cards, charts and clean controls, futuristic but practical, enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "viai-ui-2",
+      "prompt": "workflow scene for ViAI, team using AI assistant and workflow orchestration platform dashboard in modern office, screen-focused composition, premium enterprise software visual, asian market context, realistic lighting, no text"
+    },
+    {
+      "filename": "osee-ui-1",
+      "prompt": "high-end SaaS UI illustration for OSee, social listening and brand intelligence platform, realistic product interface screen with cards, charts and clean controls, futuristic but practical, enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "osee-ui-2",
+      "prompt": "workflow scene for OSee, team using social listening and brand intelligence platform dashboard in modern office, screen-focused composition, premium enterprise software visual, asian market context, realistic lighting, no text"
+    },
+    {
+      "filename": "corporate-users-asia",
+      "prompt": "corporate users in asian market using enterprise AI cloud platform in office environment, mixed team in modern business attire collaborating around dashboard screens, premium realistic style, cinematic but clean, no text"
+    }
+  ]
+}

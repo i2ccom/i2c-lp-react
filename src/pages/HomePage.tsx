@@ -4,9 +4,9 @@ import AiAppsSection from "../components/landing/AiAppsSection";
 import MainSlider from "../components/landing/MainSlider";
 import HighlightStats from "../components/landing/HighlightStats";
 import OurServices from "../components/business/OurServices";
+import TestimonialsSection from "../components/business/TestimonialsSection";
 import OurTechs from "../components/business/OurTechs";
 import PromoLetCollab from "../components/landing/PromoLetCollab";
-import Testimonial from "../components/business/Testimonial";
 
 export default function HomePage() {
   return (
@@ -25,26 +25,8 @@ export default function HomePage() {
         footer={<OurTechs />}
       />
       {/* <AboutMe /> */}
-      <OurServices
-        header={
-          <>
-            <Testimonial
-              text={
-                "We help enteprise solve most challanging technical issues araise in the Cloud Era..."
-              }
-              cite={"Michael Nguyen - i2c CTO"}
-            />
-          </>
-        }
-        middle={
-          <>
-            <Testimonial
-              text={"We want to have more customers and insights..."}
-              cite={"Sebastien - BearStock CTO"}
-            />
-          </>
-        }
-      />
+      <OurServices />
+      <TestimonialsSection />
       <AiAppsSection />
       <ExtraSections />
       {/* <ContactMe/> */}

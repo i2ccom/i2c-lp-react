@@ -1,0 +1,39 @@
+{
+  "name": "network-concepts",
+  "outputDir": "static/images/product-illustrations",
+  "defaults": {
+    "width": 1536,
+    "height": 1024,
+    "negativePrompt": "blurry, text overlay, watermark, logo, noisy composition"
+  },
+  "items": [
+    {
+      "filename": "unibi-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure hub, user avatars connected to service icons, finance and project modules on a network map, corporate style, no text"
+    },
+    {
+      "filename": "uniqi-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure hub, learners and instructors linked to service icons, adaptive learning nodes and class modules, corporate style, no text"
+    },
+    {
+      "filename": "unifi-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure core, users connected to payment service icons, compliance and risk modules linked by network lines, corporate style, no text"
+    },
+    {
+      "filename": "webbuilder-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure hub, users linked to design blocks and publishing service icons, website workflow nodes, corporate style, no text"
+    },
+    {
+      "filename": "tion-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c operations infrastructure, users linked to lead, campaign and retention service icons, connected network topology, corporate style, no text"
+    },
+    {
+      "filename": "viai-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c AI infrastructure hub, users, copilots and knowledge service icons around a connected network core, corporate style, no text"
+    },
+    {
+      "filename": "osee-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c intelligence infrastructure, users linked to listening, alert and analytics service icons on a network graph, corporate style, no text"
+    }
+  ]
+}

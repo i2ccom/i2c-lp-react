@@ -1,0 +1,19 @@
+{
+  "name": "backgrounds",
+  "outputDir": "static/images/background",
+  "defaults": {
+    "width": 1600,
+    "height": 900,
+    "negativePrompt": "blurry, noisy, text, watermark, logos, artifacts, oversaturated"
+  },
+  "items": [
+    {
+      "filename": "futuristic-geo-1",
+      "prompt": "dim abstract wallpaper, futuristic AI cloud core, holographic neural network lines, floating data cubes, analytics glyphs, business strategy symbols, cinematic cyan and deep navy glow, high-detail 3d tech composition, no text"
+    },
+    {
+      "filename": "futuristic-geo-2",
+      "prompt": "abstract wallpaper, advanced AI operations hub, 3d cloud geometry with orbiting microchips, circuit traces, fintech and dashboard symbols, subtle volumetric lighting, dark teal and steel blue palette, depth-rich parallax-ready background, no text"
+    }
+  ]
+}
