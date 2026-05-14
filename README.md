@@ -1,51 +1,69 @@
 # i2c-lp-react
 
-## Start quickly with React bulma parcel
-`
-yarn
-`
+Modernized i2c landing pages app. Vite + React 18 + TypeScript + pnpm.
 
-Deploy to surge.sh
+## Stack
+- React 18
+- TypeScript
+- Vite 5
+- pnpm
+- Bulma
+- Cloudflare Pages deploy support
 
-`
-yarn run surge
-`
+## Local dev
+```bash
+pnpm install
+pnpm dev
+```
 
-or
+App starts on Vite dev server. Main routes:
+- `/`
+- `/services`
+- `/about`
 
-`
-yarn run surge-all
-`
-## Codesandbox links
-codesandbox.io
+## Production build
+```bash
+pnpm build
+pnpm preview
+```
 
-## Components
-### Header
-### Footer
-### JumboHeader (Hero)
+## Cloudflare Pages
+This repo now includes Cloudflare Pages deploy scaffolding.
 
-### Landing
-Landing page, first page
+Local preview of built output:
+```bash
+pnpm cf:preview
+```
 
-### Portfolio
-Personal intro + info like AboutMe, skillset, services
+Deploy from local machine:
+```bash
+pnpm cf:deploy
+```
 
-### Business
-Company or business intro + info like: AboutUs, services, stats, highlights, staffs
+Expected Cloudflare Pages project name: `i2cw-com`
 
-### Application
-Web/ System or Mobile Application intro + info 
+Current Pages URLs:
+- `https://i2cw-com.pages.dev/`
+- latest deploy: `https://000113d0.i2cw-com.pages.dev`
 
-### Blog
-Blog or Articles. Connect to API (Feathersjs) or CMS (eg: GraphGL - GraphCMS)
+Custom domain target: `i2cw.com`
+Custom domain binding still needs Cloudflare Dashboard because Wrangler CLI cannot manage Pages custom domains in current version.
 
-## Data .js file
-in data folder you can file data.js file
+Current repo default branch on origin: `master`
 
-## FX
-### Particle.js FX
+## Repo structure
+- `src/components` reusable UI blocks
+- `src/pages` route-level pages
+- `src/data` structured content files named `data.*.ts`
+- `static/images` public assets copied into build output
+- `docs/HOWTO.md` operator notes for setup, GitHub, and Cloudflare
 
-## TODO
-- Extract this to a template in codesandbox and github
-- Use figbird (by default) to connect to iCMS
-- Use graphQL to connect to GraphCMS
+## GitHub repo
+Target remote repo:
+- `https://github.com/i2ccom/i2c-lp-react`
+
+Authenticated GitHub account detected in tools:
+- `atomixnmc`
+
+## Legacy deploy
+Old Surge scripts still present for compatibility, but Cloudflare Pages is now primary deploy target.

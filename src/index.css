@@ -5,4 +5,11 @@
 
 body {
   font-family: Roboto;
+  background-color: #f7fafc;
+  color: #1f2937;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #f7fafc;
 }
