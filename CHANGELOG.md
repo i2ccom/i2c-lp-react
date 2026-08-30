@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/i2ccom/i2c-lp-react/compare/v1.0.0...v1.0.1) (2026-08-30)
+
+
+### Bug Fixes
+
+* **ci:** direct wrangler deploy with explicit env vars for Cloudflare API token ([b9773c7](https://github.com/i2ccom/i2c-lp-react/commit/b9773c7e9169086a54c91e6b01c5355529b2ef5d))
+
 # 1.0.0 (2026-08-30)
 
 

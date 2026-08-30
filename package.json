@@ -1,6 +1,6 @@
 {
   "name": "i2c-landingpage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "i2c landing page. React 18 + Vite + TypeScript + Bulma",
   "private": true,
   "packageManager": "pnpm@10.11.0",
