@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_collab)"/>
+  <circle cx="46" cy="48" r="12" fill="#ffffff"/>
+  <circle cx="74" cy="48" r="12" fill="#38bdf8"/>
+  <path d="M30 84c0-10 10-16 20-16M90 84c0-10-10-16-20-16M42 84c0-8 8-14 18-14s18 6 18 14" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg_collab" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284c7"/><stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+</svg>

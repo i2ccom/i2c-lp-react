@@ -34,6 +34,26 @@
     {
       "filename": "osee-concept",
       "prompt": "glassy vector 3d social intelligence command hub, sentiment waves, competitor radar rings, alert tiles, premium corporate analytics concept, dark teal and cyan style, no text"
+    },
+    {
+      "filename": "logop-concept",
+      "prompt": "glassy vector 3d logistics and fleet management command center, vehicle nodes, route paths, rental and sales modules, premium corporate dashboard concept, blue teal palette, no text"
+    },
+    {
+      "filename": "myestate-concept",
+      "prompt": "glassy vector 3d property operations platform, building modules, security cameras, IoT sensor layers, premium corporate facility management concept, blue slate palette, no text"
+    },
+    {
+      "filename": "transformerhub-concept",
+      "prompt": "glassy vector 3d no-code AI workflow ecosystem, node-based ETL pipelines, automation modules, governance panels, premium enterprise concept, cyan indigo palette, no text"
+    },
+    {
+      "filename": "fractaldb-concept",
+      "prompt": "glassy vector 3d distributed database universe, planet-scale shards, cross-region sync nodes, AI and immersive workload streams, premium futuristic enterprise concept, deep blue palette, no text"
+    },
+    {
+      "filename": "kitchen-concept",
+      "prompt": "glassy vector 3d always-ready database middleware layer, connection bridges, routing nodes, policy shields, premium enterprise data platform concept, dark navy and cyan palette, no text"
     }
   ]
 }

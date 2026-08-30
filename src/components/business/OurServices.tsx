@@ -52,6 +52,24 @@ export default function OurServices(props: { title?: string; header?: React.Reac
           ))}
         </div>
       </div>
+      <div className="container modern-services-grid-wrap">
+        <div className="columns">
+          {myServices.services.filter(s=>s.p==3).map(service => (
+            <div key={service.title} className="column">
+              <ServiceCard service={service} />
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="container modern-services-grid-wrap">
+        <div className="columns">
+          {myServices.services.filter(s=>s.p==4).map(service => (
+            <div key={service.title} className="column">
+              <ServiceCard service={service} />
+            </div>
+          ))}
+        </div>
+      </div>
       {footer}
     </section>
   );

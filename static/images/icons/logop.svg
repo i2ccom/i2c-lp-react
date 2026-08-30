@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_logop)"/>
+  <rect x="28" y="44" width="42" height="30" rx="4" fill="#ffffff"/>
+  <path d="M70 52l14 8v14H70V52z" fill="#38bdf8"/>
+  <circle cx="42" cy="78" r="7" fill="#0f172a" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="76" cy="78" r="7" fill="#0f172a" stroke="#ffffff" stroke-width="3"/>
+  <defs>
+    <linearGradient id="bg_logop" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284c7"/><stop offset="1" stop-color="#0c4a6e"/>
+    </linearGradient>
+  </defs>
+</svg>

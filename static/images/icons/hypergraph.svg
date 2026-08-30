@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4"/>
+      <stop offset="100%" style="stop-color:#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#EF4444"/>
+    </linearGradient>
+    <linearGradient id="edgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:0.6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="url(#g1)" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Edges (connections) -->
+  <!-- Center to outer nodes -->
+  <line x1="200" y1="200" x2="80" y2="100" stroke="url(#edgeGrad)" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="200" x2="320" y2="90" stroke="url(#edgeGrad)" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="200" x2="350" y2="220" stroke="url(#edgeGrad)" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="200" x2="320" y2="330" stroke="url(#edgeGrad)" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="200" x2="80" y2="310" stroke="url(#edgeGrad)" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="200" x2="50" y2="220" stroke="url(#edgeGrad)" stroke-width="2" opacity="0.5"/>
+
+  <!-- Outer-to-outer edges (hypergraph structure) -->
+  <line x1="80" y1="100" x2="320" y2="90" stroke="#7C3AED" stroke-width="1" opacity="0.25"/>
+  <line x1="320" y1="90" x2="350" y2="220" stroke="#3B82F6" stroke-width="1" opacity="0.25"/>
+  <line x1="350" y1="220" x2="320" y2="330" stroke="#06B6D4" stroke-width="1" opacity="0.25"/>
+  <line x1="320" y1="330" x2="80" y2="310" stroke="#F59E0B" stroke-width="1" opacity="0.25"/>
+  <line x1="80" y1="310" x2="50" y2="220" stroke="#EF4444" stroke-width="1" opacity="0.25"/>
+  <line x1="50" y1="220" x2="80" y2="100" stroke="#7C3AED" stroke-width="1" opacity="0.25"/>
+
+  <!-- Outer nodes -->
+  <circle cx="80" cy="100" r="24" fill="url(#g1)" opacity="0.85" filter="url(#glow)"/>
+  <circle cx="80" cy="100" r="14" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+
+  <circle cx="320" cy="90" r="20" fill="url(#g2)" opacity="0.85" filter="url(#glow)"/>
+  <circle cx="320" cy="90" r="12" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+
+  <circle cx="350" cy="220" r="22" fill="url(#g1)" opacity="0.85" filter="url(#glow)"/>
+  <circle cx="350" cy="220" r="13" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+
+  <circle cx="320" cy="330" r="20" fill="url(#g3)" opacity="0.85" filter="url(#glow)"/>
+  <circle cx="320" cy="330" r="12" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+
+  <circle cx="80" cy="310" r="22" fill="url(#g2)" opacity="0.85" filter="url(#glow)"/>
+  <circle cx="80" cy="310" r="13" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+
+  <circle cx="50" cy="220" r="18" fill="url(#g3)" opacity="0.85" filter="url(#glow)"/>
+  <circle cx="50" cy="220" r="10" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+
+  <!-- Central node (larger, brighter) -->
+  <circle cx="200" cy="200" r="36" fill="none" stroke="url(#g1)" stroke-width="2" opacity="0.4"/>
+  <circle cx="200" cy="200" r="28" fill="url(#g1)" opacity="0.95" filter="url(#glowStrong)"/>
+  <circle cx="200" cy="200" r="18" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Inner ring on central node -->
+  <circle cx="200" cy="200" r="10" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+
+  <!-- Small node dots inside center -->
+  <circle cx="193" cy="194" r="3" fill="#fff" opacity="0.5"/>
+  <circle cx="207" cy="194" r="3" fill="#fff" opacity="0.5"/>
+  <circle cx="200" cy="207" r="3" fill="#fff" opacity="0.5"/>
+
+  <!-- HyperEdge indicator (curved bracket connecting multiple outer nodes) -->
+  <path d="M 95 88 Q 200 66 305 78" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.4" stroke-dasharray="6,3"/>
+  <path d="M 88 312 Q 200 334 312 322" fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.4" stroke-dasharray="6,3"/>
+</svg>

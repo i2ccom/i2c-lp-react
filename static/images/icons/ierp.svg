@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_ierp)"/>
+  <path d="M60 26l32 18v36L60 98 28 80V44l32-18z" stroke="#38bdf8" stroke-width="4" fill="none"/>
+  <path d="M60 26v72M28 44l64 36M92 44L28 80" stroke="#94a3b8" stroke-width="3"/>
+  <circle cx="60" cy="62" r="10" fill="#0284c7" stroke="#ffffff" stroke-width="3"/>
+  <defs>
+    <linearGradient id="bg_ierp" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0369a1"/><stop offset="1" stop-color="#082f49"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_unibi)"/>
+  <path d="M32 40h16v40H32zm20-14h16v54H52zm20 22h16v32H72zm20-12h16v44H92z" fill="#ffffff" fill-opacity="0.95"/>
+  <circle cx="80" cy="36" r="6" fill="#38bdf8"/>
+  <defs>
+    <linearGradient id="bg_unibi" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284c7"/><stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+</svg>

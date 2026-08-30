@@ -1,0 +1,31 @@
+{
+  "name": "service-logos",
+  "outputDir": "static/images/products",
+  "defaults": {
+    "width": 1024,
+    "height": 1024,
+    "negativePrompt": "blurry, text, watermark, logo text, cluttered composition, noisy background"
+  },
+  "items": [
+    {
+      "filename": "logop",
+      "prompt": "minimal corporate logo icon for Logop, logistics optimization and fleet management, route and vehicle symbol, clean blue and teal brand mark, flat professional style, no text"
+    },
+    {
+      "filename": "myestate",
+      "prompt": "minimal corporate logo icon for MyEstate, property and building management with camera and IoT cues, clean navy and cyan brand mark, flat professional style, no text"
+    },
+    {
+      "filename": "transformerhub",
+      "prompt": "minimal corporate logo icon for TransformerHub, no-code AI workflow and ETL nodes, clean teal and indigo brand mark, flat professional style, no text"
+    },
+    {
+      "filename": "fractaldb",
+      "prompt": "minimal corporate logo icon for FractalDB, distributed database and global network symbol, clean blue and slate brand mark, flat professional style, no text"
+    },
+    {
+      "filename": "kitchen",
+      "prompt": "minimal corporate logo icon for Kitchen, AI-native database middleware, always-ready connection and shield symbol, clean navy and cyan brand mark, flat professional style, no text"
+    }
+  ]
+}

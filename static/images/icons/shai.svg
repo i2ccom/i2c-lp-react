@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <!-- Background rounded square -->
+  <rect width="256" height="256" rx="48" fill="#0f172a"/>
+
+  <!-- Outer glow ring -->
+  <circle cx="128" cy="128" r="100" fill="none" stroke="#38bdf8" stroke-width="4" opacity="0.3"/>
+  <circle cx="128" cy="128" r="88" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.5"/>
+
+  <!-- Stylized "S" glyph formed by two overlapping arcs -->
+  <!-- Top arc (left to right) -->
+  <path d="M 80 80 Q 100 60 128 60 Q 156 60 176 80" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round"/>
+  <!-- Diagonal connector -->
+  <path d="M 176 80 Q 160 120 128 128 Q 96 136 80 176" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round"/>
+  <!-- Bottom arc (right to left) -->
+  <path d="M 80 176 Q 100 196 128 196 Q 156 196 176 176" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Accent dots -->
+  <circle cx="128" cy="128" r="6" fill="#facc15"/>
+  <circle cx="96" cy="80" r="4" fill="#facc15" opacity="0.7"/>
+  <circle cx="160" cy="176" r="4" fill="#facc15" opacity="0.7"/>
+
+  <!-- Code brackets hint -->
+  <path d="M 60 108 L 44 128 L 60 148" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <path d="M 196 108 L 212 128 L 196 148" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+</svg>

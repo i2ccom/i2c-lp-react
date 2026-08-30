@@ -66,6 +66,46 @@
     {
       "filename": "corporate-users-asia",
       "prompt": "corporate users in asian market using enterprise AI cloud platform in office environment, mixed team in modern business attire collaborating around dashboard screens, premium realistic style, cinematic but clean, no text"
+    },
+    {
+      "filename": "logop-ui-1",
+      "prompt": "high-end SaaS UI illustration for Logop, logistics optimization and fleet management platform, realistic product interface screen with cards, maps and clean controls, premium enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "logop-ui-2",
+      "prompt": "workflow scene for Logop, operations team using fleet management and car rental dashboard in modern office, screen-focused composition, premium software visual, realistic lighting, no text"
+    },
+    {
+      "filename": "myestate-ui-1",
+      "prompt": "high-end SaaS UI illustration for MyEstate, property and building management platform, realistic interface with building cards, camera feeds and IoT panels, premium enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "myestate-ui-2",
+      "prompt": "workflow scene for MyEstate, facilities team using property management dashboard with camera and IoT monitoring in modern office, screen-focused composition, realistic lighting, no text"
+    },
+    {
+      "filename": "transformerhub-ui-1",
+      "prompt": "high-end SaaS UI illustration for TransformerHub, no-code AI-first workflow and ETL platform, realistic interface with node graphs and pipelines, premium enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "transformerhub-ui-2",
+      "prompt": "workflow scene for TransformerHub, data and automation team using node-based workflow builder in modern office, screen-focused composition, realistic lighting, no text"
+    },
+    {
+      "filename": "fractaldb-ui-1",
+      "prompt": "high-end SaaS UI illustration for FractalDB, cloud-native distributed database platform, realistic interface with cluster views and global scale panels, premium enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "fractaldb-ui-2",
+      "prompt": "workflow scene for FractalDB, engineering team monitoring distributed database scale and global regions in modern office, screen-focused composition, realistic lighting, no text"
+    },
+    {
+      "filename": "kitchen-ui-1",
+      "prompt": "high-end SaaS UI illustration for Kitchen, AI-native database middleware platform, realistic interface with middleware routing and readiness panels, premium enterprise-ready style, blue-cyan palette, no text"
+    },
+    {
+      "filename": "kitchen-ui-2",
+      "prompt": "workflow scene for Kitchen, data platform team using always-ready middleware dashboard in modern office, screen-focused composition, realistic lighting, no text"
     }
   ]
 }

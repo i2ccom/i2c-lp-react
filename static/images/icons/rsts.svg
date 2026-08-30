@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_rsts)"/>
+  <path d="M32 44h22c8 0 8 10 0 10H42l14 22H44L32 58v18h-8V44h8z" fill="#ffffff"/>
+  <path d="M68 52h26v8H82v16h-8V60H68v-8z" fill="#38bdf8"/>
+  <defs>
+    <linearGradient id="bg_rsts" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b91c1c"/><stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+</svg>

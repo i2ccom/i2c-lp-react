@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_forge)"/>
+  <path d="M34 76l22-22 10 10-22 22H34v-10z" fill="#ffffff"/>
+  <path d="M62 48l14-14c4-4 10-4 14 0s4 10 0 14L76 62 62 48z" fill="#f59e0b"/>
+  <defs>
+    <linearGradient id="bg_forge" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ea580c"/><stop offset="1" stop-color="#431407"/>
+    </linearGradient>
+  </defs>
+</svg>

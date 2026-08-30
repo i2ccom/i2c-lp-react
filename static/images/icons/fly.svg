@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Fluidy Icon</title>
+  <desc id="desc">Fluidy graph runtime mark with connected data nodes.</desc>
+  <defs>
+    <linearGradient id="ring" x1="32" x2="224" y1="224" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="0.52" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="#101828"/>
+  <path d="M58 152c24 34 71 47 110 28 26-12 43-36 46-63" fill="none" stroke="url(#ring)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M48 103c19-36 61-56 102-47 29 7 52 28 62 55" fill="none" stroke="#ecfeff" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <circle cx="57" cy="151" r="20" fill="#14b8a6"/>
+  <circle cx="128" cy="55" r="18" fill="#60a5fa"/>
+  <circle cx="214" cy="114" r="20" fill="#fbbf24"/>
+  <circle cx="167" cy="181" r="16" fill="#f8fafc"/>
+  <path d="M73 142l43-74M143 62l54 42M201 130l-27 39M72 158l80 20" fill="none" stroke="#d1d5db" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+  <text x="128" y="138" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#ffffff">fly</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_tion)"/>
+  <path d="M60 28c-18 0-32 14-32 32s32 34 32 34 32-20 32-34-14-32-32-32z" fill="url(#pin_tion)"/>
+  <circle cx="60" cy="56" r="10" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="bg_tion" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f97316"/><stop offset="1" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="pin_tion" x1="28" y1="28" x2="92" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fed7aa"/><stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+</svg>

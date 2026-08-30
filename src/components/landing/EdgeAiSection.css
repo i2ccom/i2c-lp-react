@@ -1,0 +1,327 @@
+.edge-ai-section {
+  position: relative;
+  background: var(--bg-page);
+  padding: 5rem 1.5rem;
+  border-top: 1px solid var(--border-clean);
+}
+
+.edge-ai-title {
+  margin-bottom: 1rem;
+}
+
+.ai-showcase-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.ai-features-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ai-framework-card {
+  padding: 1.5rem;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid var(--border-clean);
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.ai-framework-card:hover {
+  background: var(--i2c-blue-subtle);
+  border-color: var(--i2c-blue-light);
+  transform: translateX(4px);
+}
+
+.ai-framework-card.is-active {
+  background: var(--i2c-blue-soft);
+  border-color: var(--i2c-blue);
+  box-shadow: var(--shadow-md);
+}
+
+.ai-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.ai-icon-wrap {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid var(--border-clean);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--i2c-blue-primary);
+  font-size: 1.1rem;
+}
+
+.ai-icon-wrap.icon-hyper {
+  color: var(--i2c-indigo);
+}
+
+.ai-icon-wrap.icon-viai {
+  color: var(--i2c-emerald);
+}
+
+.ai-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--i2c-navy);
+  margin: 0;
+}
+
+.ai-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.ai-summary {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.ai-pills-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.ai-pills-row span {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  background: #ffffff;
+  border: 1px solid var(--border-clean);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  color: var(--i2c-navy);
+  font-weight: 600;
+}
+
+/* Agent Terminal Card */
+.agent-terminal-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: var(--shadow-dark);
+}
+
+/* Dynamic AI Visual Viewport */
+.ai-visual-viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 260px;
+  overflow: hidden;
+  background: #000000;
+  border-bottom: 1px solid #1e293b;
+}
+
+.ai-visual-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  animation: aiVisualFadeIn 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+@keyframes aiVisualFadeIn {
+  0% {
+    opacity: 0.15;
+    transform: scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.ai-visual-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.85rem 1rem;
+  background: linear-gradient(0deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.6) 60%, rgba(15, 23, 42, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.ai-visual-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #38bdf8;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  padding: 2px 7px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.ai-visual-caption {
+  font-size: 0.76rem;
+  color: #cbd5e1;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.terminal-content {
+  animation: aiTermFade 0.4s ease;
+}
+
+@keyframes aiTermFade {
+  0% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.terminal-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  background: #1e293b;
+  border-bottom: 1px solid #334155;
+}
+
+.terminal-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.terminal-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.terminal-title {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.terminal-status {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: #34d399;
+  font-weight: 700;
+}
+
+.terminal-content {
+  padding: 1.5rem;
+  background: #0f172a;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.terminal-banner {
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  color: #38bdf8;
+  font-size: 0.75rem;
+}
+
+.trace-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.trace-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  line-height: 1.5;
+}
+
+.trace-idx {
+  color: #64748b;
+}
+
+.trace-event .trace-text { color: #94a3b8; }
+.trace-think .trace-text { color: #c084fc; font-style: italic; }
+.trace-tool .trace-text { color: #fbbf24; }
+.trace-action .trace-text { color: #38bdf8; }
+.trace-success .trace-text { color: #34d399; font-weight: 600; }
+
+.terminal-prompt-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #38bdf8;
+  margin-top: auto;
+}
+
+.prompt-cursor {
+  animation: pulseGlow 1s infinite;
+}
+
+.terminal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: #1e293b;
+  border-top: 1px solid #334155;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.terminal-telemetry {
+  display: flex;
+  gap: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: #94a3b8;
+}
+
+.terminal-telemetry strong {
+  color: #ffffff;
+}
+
+.btn-terminal-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #38bdf8;
+  text-decoration: none;
+  transition: gap 0.2s ease;
+}
+
+.btn-terminal-link:hover {
+  gap: 0.6rem;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .ai-showcase-grid {
+    grid-template-columns: 1fr;
+  }
+}

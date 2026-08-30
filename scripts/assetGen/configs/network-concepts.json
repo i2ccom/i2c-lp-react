@@ -34,6 +34,26 @@
     {
       "filename": "osee-network-concept",
       "prompt": "flat classic clean vector illustration, central i2c intelligence infrastructure, users linked to listening, alert and analytics service icons on a network graph, corporate style, no text"
+    },
+    {
+      "filename": "logop-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure hub, users connected to fleet, route, rental and vehicle commerce icons, logistics network map, corporate style, no text"
+    },
+    {
+      "filename": "myestate-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure hub, users connected to property, camera, security and IoT building icons, facilities network map, corporate style, no text"
+    },
+    {
+      "filename": "transformerhub-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure core, users connected to ETL, workflow, node and AI service icons, ecosystem network map, corporate style, no text"
+    },
+    {
+      "filename": "fractaldb-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure core, users connected to distributed database, AI, VR and blockchain icons, global scale network map, corporate style, no text"
+    },
+    {
+      "filename": "kitchen-network-concept",
+      "prompt": "flat classic clean vector illustration, central i2c infrastructure core, users connected to middleware, routing, readiness and database service icons, always-on network map, corporate style, no text"
     }
   ]
 }

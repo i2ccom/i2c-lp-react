@@ -83,6 +83,7 @@
 }
 
 .clients-global-image-wrap {
+  position: relative;
   border: 1px solid #d7e5f3;
   border-radius: 14px;
   overflow: hidden;
@@ -96,6 +97,44 @@
   width: 100%;
   display: block;
   object-fit: cover;
+}
+
+/* ── stat chips overlay ── */
+.clients-stats-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.75rem;
+  padding: 8rem 1.5rem;
+}
+
+.clients-stat-chip {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  background: rgba(5, 35, 64, 0.72);
+  backdrop-filter: blur(8px);
+  color: #e8f4ff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border: 1px solid rgba(100, 180, 255, 0.3);
+  opacity: 0;
+  animation: statChipCycle 9s ease-in-out infinite;
+}
+
+.clients-stat-chip--1 { animation-delay: 0s; }
+.clients-stat-chip--2 { animation-delay: 3s; }
+.clients-stat-chip--3 { animation-delay: 6s; }
+
+@keyframes statChipCycle {
+  0%   { opacity: 0; transform: translateY(12px); }
+  10%  { opacity: 1; transform: translateY(0); }
+  30%  { opacity: 1; transform: translateY(0); }
+  45%  { opacity: 0; transform: translateY(-8px); }
+  100% { opacity: 0; transform: translateY(-8px); }
 }
 
 .client-testimonial-card {

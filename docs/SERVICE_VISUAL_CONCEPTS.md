@@ -40,3 +40,37 @@ Upgrade service visuals to look:
 
 ### OSee
 "glassy vector 3d social intelligence command hub, sentiment waves, competitor radar rings, alert tiles, premium corporate analytics concept, dark teal and cyan style, no text"
+
+## New Services (Expanded Catalog)
+
+### Logop
+Logistics optimization and management platform for fleet management, vehicle sales, rental, and shared car-pool operations.
+
+### MyEstate
+Estate, property, and building management platform with camera, AI, and IoT integrations for connected facility operations.
+
+### TransformerHub
+No-code AI-first workflow platform for ETL, big data pipelines, and a node-based ecosystem.
+
+### FractalDB
+Next-gen cloud-native distributed database for AI, VR, metaverse, and blockchain workloads at global scale.
+
+### Kitchen
+AI-native database middleware that stays ready, routes intelligently, and keeps services connected.
+
+## New Services (Expanded Catalog)
+
+### Logop
+Logistics optimization and management platform for fleet management, vehicle sales, rental, and shared car-pool operations.
+
+### MyEstate
+Estate, property, and building management platform with camera, AI, and IoT integrations for connected facility operations.
+
+### TransformerHub
+No-code AI-first workflow platform for ETL, big data pipelines, and a node-based ecosystem.
+
+### FractalDB
+Next-gen cloud-native distributed database for AI, VR, metaverse, and blockchain workloads at global scale.
+
+### Kitchen
+AI-native database middleware that stays ready, routes intelligently, and keeps services connected.

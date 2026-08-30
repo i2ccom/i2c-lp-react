@@ -34,6 +34,26 @@
     {
       "filename": "osee-hero",
       "prompt": "Social listening intelligence center with real-time sentiment waves, multi-channel signal tiles, competitor radar rings, alert indicators, electric cyan and sunset orange accents, high-clarity analytical style, no text."
+    },
+    {
+      "filename": "logop-hero",
+      "prompt": "Logistics command center for fleet management, route maps, vehicle inventory, rental workflows, and shared mobility analytics, blue and teal corporate palette, premium SaaS composition, no text."
+    },
+    {
+      "filename": "myestate-hero",
+      "prompt": "Property operations control room with buildings, security camera feeds, AI monitoring panels, and IoT sensor layers, premium corporate style, blue and slate palette, no text."
+    },
+    {
+      "filename": "transformerhub-hero",
+      "prompt": "No-code AI workflow and ETL control center with node-based pipelines, data streams, automation cards, and governance panels, modern enterprise style, cyan and indigo palette, no text."
+    },
+    {
+      "filename": "fractaldb-hero",
+      "prompt": "Cloud-native distributed database visualization for AI, VR, metaverse, and blockchain workloads, global shards, planet-scale network nodes, resilient infrastructure, premium futuristic style, no text."
+    },
+    {
+      "filename": "kitchen-hero",
+      "prompt": "AI-native database middleware platform in always-ready state, layered routing architecture, service connection hubs, observability panels, clean corporate technology style, no text."
     }
   ]
 }

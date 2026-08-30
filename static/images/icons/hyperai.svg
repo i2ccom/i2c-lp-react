@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_hyperai)"/>
+  <path d="M60 30L34 76h52L60 30z" stroke="#c084fc" stroke-width="4" fill="none"/>
+  <circle cx="60" cy="58" r="10" fill="#38bdf8"/>
+  <path d="M30 60h60M60 30v60" stroke="#ffffff" stroke-width="2" stroke-dasharray="3 3"/>
+  <defs>
+    <linearGradient id="bg_hyperai" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6b21a8"/><stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+</svg>

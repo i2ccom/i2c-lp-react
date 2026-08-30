@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_uploop)"/>
+  <path d="M60 32v56M40 52l20-20 20 20" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="60" cy="88" r="6" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="bg_uploop" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ec4899"/><stop offset="1" stop-color="#831843"/>
+    </linearGradient>
+  </defs>
+</svg>

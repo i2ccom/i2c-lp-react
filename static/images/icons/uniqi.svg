@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_uniqi)"/>
+  <path d="M60 28L28 44l32 16 32-16-32-16z" fill="#38bdf8"/>
+  <path d="M36 56v20c0 12 24 18 24 18s24-6 24-18V56" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M92 48v24" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg_uniqi" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284c7"/><stop offset="1" stop-color="#0c4a6e"/>
+    </linearGradient>
+  </defs>
+</svg>

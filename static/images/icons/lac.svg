@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_lac)"/>
+  <rect x="28" y="32" width="64" height="46" rx="6" stroke="#ffffff" stroke-width="4" fill="none"/>
+  <path d="M48 88h24M60 78v10" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="60" cy="55" r="10" fill="#38bdf8"/>
+  <defs>
+    <linearGradient id="bg_lac" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284c7"/><stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+</svg>

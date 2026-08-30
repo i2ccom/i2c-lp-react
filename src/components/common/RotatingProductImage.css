@@ -1,0 +1,182 @@
+/* ══════════════════════════════════════════════════════════════
+ * 3D DOOR OPEN & SPLIT-FADE TRANSITION STYLES
+ * ══════════════════════════════════════════════════════════════ */
+
+.door-split-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  perspective: 1200px;
+  background: #090d16;
+  border-radius: inherit;
+  cursor: pointer;
+}
+
+/* 1. Underlying Architecture Blueprint */
+.door-underlayer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #030712;
+}
+
+.door-arch-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(0.93);
+  filter: brightness(0.7) blur(1px);
+  opacity: 0.5;
+  transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+              filter 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+              opacity 0.5s ease;
+  will-change: transform, filter, opacity;
+}
+
+.door-arch-overlay {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: all 0.4s ease 0.15s;
+}
+
+.door-arch-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #38bdf8;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  padding: 2px 7px;
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* 2. Top Split Doors (Human Usage Scenario) */
+.door-panels-container {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.door-panel {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.65s cubic-bezier(0.25, 1, 0.35, 1),
+              opacity 0.55s cubic-bezier(0.25, 1, 0.35, 1);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.door-panel-left {
+  clip-path: polygon(0 0, 50.8% 0, 50.8% 100%, 0 100%);
+  transform-origin: left center;
+}
+
+.door-panel-right {
+  clip-path: polygon(49.2% 0, 100% 0, 100% 100%, 49.2% 100%);
+  transform-origin: right center;
+}
+
+.door-human-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Resting / Active Usage Pill */
+.door-usage-pill {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #f8fafc;
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  padding: 2px 7px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.pill-pulse-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 6px #10b981;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ══════════════════════════════════════════════════════════════
+ * HOVER STATES (Triggered by wrapper hover or parent card hover)
+ * ══════════════════════════════════════════════════════════════ */
+
+.door-split-wrapper.is-hovered .door-arch-img,
+.solution-card:hover .door-arch-img,
+.sol-component-card:hover .door-arch-img {
+  transform: scale(1);
+  filter: brightness(1) blur(0px);
+  opacity: 1;
+}
+
+.door-split-wrapper.is-hovered .door-arch-overlay,
+.solution-card:hover .door-arch-overlay,
+.sol-component-card:hover .door-arch-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.door-split-wrapper.is-hovered .door-panel-left,
+.solution-card:hover .door-panel-left,
+.sol-component-card:hover .door-panel-left {
+  transform: perspective(900px) rotateY(-88deg) translateZ(12px);
+  opacity: 0;
+}
+
+.door-split-wrapper.is-hovered .door-panel-right,
+.solution-card:hover .door-panel-right,
+.sol-component-card:hover .door-panel-right {
+  transform: perspective(900px) rotateY(88deg) translateZ(12px);
+  opacity: 0;
+}
+
+
+.door-split-wrapper.is-hovered .door-usage-pill,
+.solution-card:hover .door-usage-pill,
+.sol-component-card:hover .door-usage-pill {
+  background: rgba(2, 132, 199, 0.85);
+  border-color: rgba(56, 189, 248, 0.6);
+  color: #ffffff;
+}
+
+.door-split-wrapper.is-hovered .pill-pulse-dot,
+.solution-card:hover .pill-pulse-dot,
+.sol-component-card:hover .pill-pulse-dot {
+  background: #38bdf8;
+  box-shadow: 0 0 8px #38bdf8;
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Fluid</title>
+  <desc id="desc">A content-addressed droplet connected to graph nodes.</desc>
+  <defs>
+    <linearGradient id="drop" x1="22" x2="106" y1="14" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#26c6da"/>
+      <stop offset="0.5" stop-color="#2f80ed"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#drop)" d="M64 8c15 19 36 43 36 72 0 23-16 40-36 40S28 103 28 80C28 51 49 27 64 8Z"/>
+  <path fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" d="M43 78h20l12-24 10 36"/>
+  <circle cx="43" cy="78" r="8" fill="#ffffff"/>
+  <circle cx="75" cy="54" r="8" fill="#ffffff"/>
+  <circle cx="85" cy="90" r="8" fill="#ffffff"/>
+</svg>

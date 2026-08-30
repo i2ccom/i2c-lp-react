@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="url(#bg_devp)"/>
+  <rect x="28" y="30" width="64" height="60" rx="8" stroke="#38bdf8" stroke-width="4" fill="none"/>
+  <path d="M42 48l10 12-10 12M58 72h20" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="bg_devp" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284c7"/><stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+</svg>

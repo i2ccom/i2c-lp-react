@@ -84,8 +84,11 @@ export default function OurClients() {
 								src="/images/clients/global-clients-network.jpeg"
 								alt="Global i2c client and data center network"
 								className="clients-global-image"
-							/>
-						</div>
+							/>						<div className="clients-stats-overlay">
+							<span className="clients-stat-chip clients-stat-chip--1">15 clients worldwide</span>
+							<span className="clients-stat-chip clients-stat-chip--2">10k+ users</span>
+							<span className="clients-stat-chip clients-stat-chip--3">3 data centers</span>
+						</div>						</div>
 					</div>
 				</div>
 			</div>
